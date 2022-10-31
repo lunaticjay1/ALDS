@@ -1,5 +1,7 @@
 public class MergeSort {
 
+    /* coding with john YouTube */
+
     static void mergeSort(int[] arr){
         int length = arr.length;
         if(length < 2){

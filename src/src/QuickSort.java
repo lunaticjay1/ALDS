@@ -1,5 +1,7 @@
 public class QuickSort {
 
+    /* coding with john YouTube */
+
     static void quickSort(int[] arr, int low, int high){
         if(low>=high){
             return;
