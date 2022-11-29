@@ -1,0 +1,27 @@
+STACKS
+
+1)Declaring a STACK
+
+Stack<Integer> stack = new Stack<>();
+
+2) To add an element
+
+stack.add(e);
+ or
+stack.push(e);
+
+3)To remove an element
+
+stack.pop()
+
+4) To peek an element
+
+stack.peek()
+
+5) to check if the stack is empty
+
+stack.empty()
+
+or
+
+stack.isEmpty()

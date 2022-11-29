@@ -1,11 +1,19 @@
-import java.util.Arrays;
+import educative.arrays.QuickSort1;
+
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        int[] arr = new int[]{2,1,5,1,3,9};
-        System.out.println(Arrays.toString(arr));
-        QuickSort.quickSort(arr, 0, arr.length-1);
-        System.out.println(Arrays.toString(arr));
+        LinkedList l = new LinkedList();
+        l.addFirst(100);
+        l.addFirst(200);
+        l.addFirst(300);
+        l.addFirst(400);
+        l.addFirst(500);
+        l.reverse();
+        QuickSort1 q = new QuickSort1();
+
+
 
     }
 }

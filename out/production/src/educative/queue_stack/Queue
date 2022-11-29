@@ -1,0 +1,56 @@
+Enqueue means add an element at the end of queue ( offer )
+Dequeue means remove the element from top of queue ( poll )
+
+QUEUES
+
+Queues are interface in java so it cannot be instantiated directly
+
+1) Declaring a Queue
+
+Queue<Integer> queue = new LinkedList<>();
+
+                 or
+
+Queue<Integer> queue = new ArrayDeque<>();
+
+summary of queue methods
+---------------------------
+
+Throws Exception                   Returns special value
+
+add(e)                                  offer(e)
+remove()                                poll()
+element()                               peek()
+
+Here we can use both the methods, but for example when is empty and you try to use remove(),
+ it throws exception but poll() doesn't throw exception, instead it returns something like this [].
+
+ So it is better to use offer(), poll(), peek().
+
+ 2) To add elements to the queue
+
+ queue.offer(10);
+
+ 3) to remove from the queue
+
+ queue.poll(10);
+
+ 4) to see the first item in the queue
+
+ queue.peek();
+
+
+Queue interface extends Collection interface, so we have some useful methods here as follows
+
+5) to check if the queue is empty
+
+queue.isEmpty();
+
+6) to check if queue contains a specific element
+
+queue.contains(10);
+
+7) to get the size
+
+queue.size();
+
